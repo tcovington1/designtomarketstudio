@@ -34,7 +34,7 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'demo.wp-api.org' or 'www.example-site.com'
          */
-        baseUrl: "http://learnhealthtoday.local/",
+        baseUrl: "http://thetruckshopstudio.local/",
         // The protocol. This can be http or https.
         protocol: "http",
         // The rest api route prefix that your WordPress site is using.
@@ -115,9 +115,11 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
+          "**/menus",
+          "**/portfolio"
         ],
         // Blacklisted routes using glob patterns
-        excludedRoutes: ["**/posts/1456"],
+        excludedRoutes: [],
         // Set this to keep media sizes.
         // This option is particularly useful in case you need access to
         // URLs for thumbnails, or any other media detail.
